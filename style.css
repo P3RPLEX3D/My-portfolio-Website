@@ -168,6 +168,16 @@ nav li {
 	text-align: center;
 }
 
+footer table, footer tbody, footer tr, footer td {
+  display: block; 
+  width: 100%;
+  text-align: center;
+}
+
+footer td {
+  padding: 10px 0;
+}
+
 @media screen and (max-width:600px){
 	#article {
 		width:100%;
