@@ -255,6 +255,8 @@ img {
 	position:absolute;
 	opacity:0.05;
 	z-index:1;
+	max-width: 100%;
+    height: auto;
 }
 
 .skills-table {
