@@ -211,11 +211,9 @@ ul {
 }
 
 h1 {
-	margin:0;
-	text-align: right;
-	color: #666;
-	padding: 20px;
-}
+    font-size: 2rem; /* Scales down the main name */
+    text-align: center;
+  }
 
 h2 {
 	margin:0;
