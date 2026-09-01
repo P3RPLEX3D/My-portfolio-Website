@@ -178,11 +178,11 @@ footer td {
   padding: 10px 0;
 }
 
-@media screen and (max-width:600px){
-	#article {
-		width:100%;
-	}
-}
+@media (max-width: 768px) {
+  article, section {
+    padding: 15px;
+    margin: 10px;
+  }
 p {
 	clear: both;
 	
