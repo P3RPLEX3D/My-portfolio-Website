@@ -2,7 +2,7 @@ html {
  	scroll-behavior: smooth;
 	scroll-padding-top: 100px;
 	scroll-margin-top: 100px;
-	scroll-snap-type: 1000;
+	
 }
 
 
@@ -27,7 +27,7 @@ section {
 
 
 article {
-	margin: 0;	
+	margin: 0 auto;	
 	
 }
 
@@ -38,6 +38,7 @@ body {
 	font-family: "Jura", sans-serif;
 	height:100vh;
 	
+	margin: 0 auto;
 }
 
 #Home {
@@ -48,8 +49,6 @@ body {
 	text-align: center;
 	color: #333;
 	background-color: #fafafa;
-	
-	
 	font-size: 2em;
 	margin: 0;
 }
@@ -101,11 +100,11 @@ body {
 	
 }
 #article {
-	width:80%;
+	width: 60%;
 	border-right:none;
 	border-left:none;
-	margin-left:auto;
-	margin-right:auto;
+	margin: 0 auto;
+
 	
 }
 
@@ -135,12 +134,20 @@ body {
 }
 
 #footer {
+	
 	text-align: center;
 	margin-top: 50px;
 	background-color: #fefefe;
 	border-top: 1px solid #b9b7b7;
-	font-size: 14px;
+	font-size: 18px;
 	color: #1f1f1f;
+}
+.footer-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin:0;
+	font-size: 18px;
+	text-align: center;
 }
 
 @media screen and (max-width:600px){
@@ -152,8 +159,7 @@ p {
 	clear: both;
 	
 	line-height: 1.75;
-	padding: 30px;
-	width: 100%;
+	padding: 30px;	
 	font-size: 20px;
 	text-align: left;
 	box-sizing: border-box;
