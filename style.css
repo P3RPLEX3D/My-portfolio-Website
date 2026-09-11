@@ -155,7 +155,7 @@ body {
 	#article {
 		width:100%;
 	} else if (max-width: 450px) {
-		#article {
+		article {
 			width:100%;
 		}
 	}
