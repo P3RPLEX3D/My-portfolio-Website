@@ -154,7 +154,7 @@ body {
 @media screen and (max-width:600px){
 	#article {
 		width:100%;
-	} else if (max-width: 200px) {
+	} else if (max-width: 450px) {
 		#article {
 			width:100%;
 		}
