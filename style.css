@@ -279,7 +279,7 @@ img {
 @media screen and (max-width: 600px) {
     /* Target the h1 tag */
     #header h1 {
-        font-size: 1em; /* or 16px */
+        font-size: 10px; /* or 16px */
     }
     
     /* Target the ID to override the 60% width */
