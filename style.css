@@ -276,19 +276,8 @@ img {
 	border-right: none;
 	
 }
-@media screen and (max-width: 600px) {
-    /* Target the h1 tag */
-    #header {
-        font-size: 10px; /* or 16px */
-    }
-    
-    /* Target the ID to override the 60% width */
-    #article {
-        width: 100%;
-    }
-    
-    /* Optional: If you ALSO wanted to shrink the top nav links, keep this: */
-    .TopNav li a {
-        font-size: 14px; 
-    }
-}
+@media (max-width: 768px) {
+  article, section {
+    padding: 15px;
+    margin: 10px;
+  }
