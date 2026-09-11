@@ -278,7 +278,7 @@ img {
 }
 @media screen and (max-width: 600px) {
     /* Target the h1 tag */
-    #header h1 {
+    #header {
         font-size: 10px; /* or 16px */
     }
     
