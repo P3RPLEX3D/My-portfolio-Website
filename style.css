@@ -277,7 +277,7 @@ img {
 	
 }
 @media (max-width: 768px) {
-   section {
+   #Home {
     padding: 150px;
     margin: 100px;
   }
